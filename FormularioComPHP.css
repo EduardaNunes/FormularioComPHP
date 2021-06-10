@@ -1,0 +1,63 @@
+.error {color: #FF0000;}
+
+body{
+    background-image: linear-gradient(to right, #8360c3, #2ebf91); 
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#8360c3, #2ebf91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: 35px;
+    background: -webkit-linear-gradient(#8360c3, #2ebf91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#cartaoCentral{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow:2px 2px 8px black;
+    height: 800px;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#info{
+    margin-left: 30px;
+}
+
+#botao{
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 30px;
+    }
+
+#botao:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
